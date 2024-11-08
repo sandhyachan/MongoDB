@@ -1,0 +1,158 @@
+[
+  {
+    _id: ObjectId('672dadbf515d064bfbdbfc0d'),
+    title: 'Sum of Arrays',
+    category: 'Array',
+    completion: [
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object]
+    ]
+  },
+  {
+    _id: ObjectId('672dadbf515d064bfbdbfc0e'),
+    title: 'Prime Number Checker',
+    category: 'Mathematics',
+    completion: [
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object]
+    ]
+  },
+  {
+    _id: ObjectId('672dadbf515d064bfbdbfc0f'),
+    title: 'String Reversal',
+    category: 'Strings',
+    completion: [
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object]
+    ]
+  },
+  {
+    _id: ObjectId('672dadbf515d064bfbdbfc10'),
+    title: 'Find Largest Number',
+    category: 'Numbers',
+    completion: [
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object]
+    ]
+  },
+  {
+    _id: ObjectId('672dadbf515d064bfbdbfc11'),
+    title: 'Fibonacci Sequence',
+    category: 'Mathematics',
+    completion: [
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object]
+    ]
+  },
+  {
+    _id: ObjectId('672dadbf515d064bfbdbfc12'),
+    title: 'Sorting Array',
+    category: 'Sorting',
+    completion: [
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object]
+    ]
+  },
+  {
+    _id: ObjectId('672dadbf515d064bfbdbfc13'),
+    title: 'Reverse Words in a Sentence',
+    category: 'Strings',
+    completion: [
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object]
+    ]
+  },
+  {
+    _id: ObjectId('672dadbf515d064bfbdbfc14'),
+    title: 'Search Element in Array',
+    category: 'Searching',
+    completion: [
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object]
+    ]
+  },
+  {
+    _id: ObjectId('672dadbf515d064bfbdbfc15'),
+    title: 'Find Missing Number',
+    category: 'Array',
+    completion: [
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object]
+    ]
+  },
+  {
+    _id: ObjectId('672dadbf515d064bfbdbfc16'),
+    title: 'Dynamic Programming - Fibonacci',
+    category: 'Dynamic Programming',
+    completion: [
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object]
+    ]
+  },
+  {
+    _id: ObjectId('672dadbf515d064bfbdbfc17'),
+    title: 'Hashing - Anagram Check',
+    category: 'Hashing',
+    completion: [
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object]
+    ]
+  },
+  {
+    _id: ObjectId('672dadbf515d064bfbdbfc18'),
+    title: 'Palindrome Check',
+    category: 'Strings',
+    completion: [
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object]
+    ]
+  },
+  {
+    _id: ObjectId('672dadbf515d064bfbdbfc19'),
+    title: 'Looping - Sum of Numbers',
+    category: 'Looping',
+    completion: [
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object]
+    ]
+  }
+]

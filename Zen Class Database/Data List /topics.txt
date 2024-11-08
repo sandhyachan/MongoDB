@@ -1,0 +1,56 @@
+[
+    {
+      _id: ObjectId('6727126244d8ed98afb8bdec'),
+      date: 2024-09-21T00:00:00.000Z,
+      title: 'Use Ref and useReducer',
+      content: 'Front end game demonstration'
+    },
+    {
+      _id: ObjectId('6727126244d8ed98afb8bded'),
+      date: 2024-09-22T00:00:00.000Z,
+      title: 'Axios',
+      content: 'API and Implementing simple CRUD'
+    },
+    {
+      _id: ObjectId('6727126244d8ed98afb8bdee'),
+      date: 2024-09-28T00:00:00.000Z,
+      title: 'Redux',
+      content: 'Intro to Redux - to understand the state management with react application'
+    },
+    {
+      _id: ObjectId('6727126244d8ed98afb8bdef'),
+      date: 2024-10-13T00:00:00.000Z,
+      title: 'MySQL',
+      content: 'Normalisation and DB Model design'
+    },
+    {
+      _id: ObjectId('6727126244d8ed98afb8bdf0'),
+      date: 2024-10-19T00:00:00.000Z,
+      title: 'MongoDB',
+      content: 'Database and theories'
+    },
+    {
+      _id: ObjectId('6727126244d8ed98afb8bdf1'),
+      date: 2024-10-26T00:00:00.000Z,
+      title: 'MongoDB',
+      content: 'Use of operators and methods'
+    },
+    {
+      _id: ObjectId('6727126244d8ed98afb8bdf2'),
+      date: 2024-10-27T00:00:00.000Z,
+      title: 'Nodejs',
+      content: 'Day 1 Theories'
+    },
+    {
+      _id: ObjectId('6727126244d8ed98afb8bdf3'),
+      date: 2024-11-02T00:00:00.000Z,
+      title: 'Node and Expressjs',
+      content: 'API Methods and parameters'
+    },
+    {
+      _id: ObjectId('6727126244d8ed98afb8bdf4'),
+      date: 2024-11-03T00:00:00.000Z,
+      title: 'Node and MongoDB connectivity',
+      content: 'Connection to MongoDB(local & atlas)'
+    }
+  ]

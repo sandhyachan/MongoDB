@@ -1,0 +1,128 @@
+[
+  {
+    _id: ObjectId('672717c744d8ed98afb8bdfe'),
+    id: 1,
+    date: 2024-09-22T00:00:00.000Z,
+    title: 'React Axios Task',
+    description: 'Create a React App that allows for CRUD operations with user data',
+    due_date: 2024-09-29T00:00:00.000Z,
+    submissions: [
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object]
+    ]
+  },
+  {
+    _id: ObjectId('672717c744d8ed98afb8bdff'),
+    id: 2,
+    date: 2024-09-28T00:00:00.000Z,
+    title: 'React Redux Task',
+    description: 'get a JSON data and create a cart page with per-item price and per-item quantity',
+    due_date: 2024-10-10T00:00:00.000Z,
+    submissions: [
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object]
+    ]
+  },
+  {
+    _id: ObjectId('672717c744d8ed98afb8be00'),
+    id: 3,
+    date: 2024-10-06T00:00:00.000Z,
+    title: 'MySQL',
+    description: 'Complete SQL Bolt',
+    due_date: 2024-10-16T00:00:00.000Z,
+    submissions: [
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object]
+    ]
+  },
+  {
+    _id: ObjectId('672717c744d8ed98afb8be01'),
+    id: 4,
+    date: 2024-10-19T00:00:00.000Z,
+    title: 'MongoDB',
+    description: 'Write the corresponding MongoDB queries',
+    due_date: 2024-10-29T00:00:00.000Z,
+    submissions: [
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object]
+    ]
+  },
+  {
+    _id: ObjectId('672717c744d8ed98afb8be02'),
+    id: 5,
+    date: 2024-10-26T00:00:00.000Z,
+    title: 'MongoDB',
+    description: 'Design database for Zen class programme',
+    due_date: 2024-11-06T00:00:00.000Z,
+    submissions: [
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object]
+    ]
+  },
+  {
+    _id: ObjectId('672717c744d8ed98afb8be03'),
+    id: 6,
+    date: 2024-10-27T00:00:00.000Z,
+    title: 'Nodejs File System',
+    description: 'Write an API endpoint to create and retrieve a text file',
+    due_date: 2024-11-07T00:00:00.000Z,
+    submissions: [
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object]
+    ]
+  },
+  {
+    _id: ObjectId('672717c744d8ed98afb8be04'),
+    id: 7,
+    date: 2024-11-02T00:00:00.000Z,
+    title: 'Web Developer Task',
+    description: 'Write API for hall booking Application',
+    due_date: 2024-11-12T00:00:00.000Z,
+    submissions: [
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object]
+    ]
+  }
+]

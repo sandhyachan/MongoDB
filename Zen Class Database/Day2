@@ -1,0 +1,88 @@
+// Q1. Find all the topics and tasks which are taught in the month of October
+
+db.tasks.aggregate([
+  {
+$facet: {
+tasks: [
+  {
+$match: { date: {$gt: new ISODate("2024-09-30"), $lt: new ISODate("2024-11-01")}}},
+  {
+$project: {
+  id: 1,
+  date: 1,
+  title:1,
+  description:1,
+  due_date: 1}}
+],
+topics: [
+  {
+$match: {date: {$gt: new ISODate("2024-09-30"), $lt: new ISODate("2024-11-01")}}},
+  {
+$project: {
+	_id:1,
+	date: 1,
+	title: 1,
+	content: 1
+}}]}}])
+
+
+// Q2. Find all the company drives which appeared between 15 oct-2024 and 31-oct-2024
+
+db.company_drives.aggregate({
+  $match: {date: {$gte: new ISODate("2024-10-15"), $lte: new ISODate("2024-10-31")}}}
+)  
+
+
+// Q3. Find all the company drives and students who are appeared for the placement.
+db.company_drives.aggregate({
+  $lookup: {
+  from: "users",
+  localField: "attendees",
+  foreignField: "id",
+  as: "attendees_details"
+  }}
+)
+
+
+// Q4. Find the number of problems solved by the user in codekata
+
+db.codekata.aggregate([
+  {$unwind: "$completion"},
+  {$group: {_id: "$completion.student_id",
+						problems_solved: {$sum: 1},
+						codekata_titles: {$addToSet: "$title"}}},
+  {$lookup: 
+{from: "users",
+localField: "_id",
+foreignField: "student_id",
+as: "user_details"}},
+  {$project: {solved_by: {$arrayElemAt: ["$user_details.name", 0]}, problems_solved: 1, codekata_titles: 1}},
+  {$sort: {_id: 1}}
+])
+
+
+// Q5. Find all the mentors with who has the mentee's count more than 15
+
+db.mentor.aggregate(
+  {$match: 
+    {$expr: {$gt: [{$size: "$students"}, 15]}}}
+)
+
+
+// Q6. Find the number of users who are absent and task is not submitted  between 15 oct-2020 and 31-oct-2020
+db.tasks.aggregate([
+  {$unwind: "$submissions"},
+  {$match: {date: {$gte: ISODate("2024-10-15"), $lte: ISODate("2024-10-31")}, "submissions.submitted": false}
+},
+  {$lookup: {
+		from: "attendance", 
+    localField: "submissions.student_id", 
+    foreignField: "students.id", 
+    as: "students_attendance" }},
+  {$unwind: "$students_attendance"},
+  {$match: {"students_attendance.date": {$gte: ISODate("2024-10-15"), $lte: ISODate("2024-10-31")},
+      "students_attendance.students.status": "absent"}
+  },
+  {$group: {_id: "$submissions.student_id"}},
+  {$count: "users_absent_and_unsubmitted"}
+])
